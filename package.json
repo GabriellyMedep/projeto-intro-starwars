@@ -1,0 +1,23 @@
+{
+  "name": "projeto-final---intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix"  },
+  "author": "Gabrielly Medeiros",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-friendly-formatter": "^4.0.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3"
+  }
+}
